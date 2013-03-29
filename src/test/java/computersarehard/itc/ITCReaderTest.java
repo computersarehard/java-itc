@@ -51,12 +51,7 @@ public class ITCReaderTest {
             for (int i = 0; i < images.size(); i++) {
                 ITCImage image = images.get(i);
                 assertEquals("Each image should be ARGB", ITCImage.Format.ARGB, image.getFormat());
-
                 assertEquals("Checksum should match", ARGB_MD5[i], md5sum(image.getData()));
-
-                java.io.FileOutputStream out = new java.io.FileOutputStream("/tmp/test" + i + ".png");
-                image.writeToStream(out);
-                out.close();
             }
 
         } finally {

@@ -107,6 +107,10 @@ public class ITCImage {
             this.extension = extension;
         }
 
+        public final String getFileExtension () {
+            return extension;
+        }
+
         /**
          * A factory method for creating new {@link ITCImage} instances for the format. Each format type could
          * possibly return a different {@link ITCImage} implementation.
