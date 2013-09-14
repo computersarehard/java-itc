@@ -4,14 +4,14 @@
 
     <groupId>computersarehard</groupId>
     <artifactId>itc-java</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.01-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>ITC Album Artwork Extractor for Java</name>
     <url>https://github.com/computersarehard/itc-java</url>
     <description>
         A small Java API for extracting album artwork images from iTunes' .itc file format. Most of the
-        functionality provided by this library is based on the work of Simon Kennedy on the python itc tool.
+        functionality provided by this library is based on the work of Simon Kennedy on the Python itc tool.
         https://launchpad.net/itc
     </description>
 

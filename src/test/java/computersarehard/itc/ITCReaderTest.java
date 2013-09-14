@@ -29,9 +29,9 @@ import static org.junit.Assert.*;
 
 public class ITCReaderTest {
     private static final String[] ARGB_MD5 = new String[] {
-        "7ce5de67cf332101ae02171ff1ee87cf",
-        "43ce0f9ffc9811ff65e9356bb6265c3c",
-        "74803dfa6d64aa3c30e64a5313be1f53"
+        "4afb22e3c83b402019d7048b81169754",
+        "5d586d843c17dabb2ad9533344e117ea",
+        "d59ff916678641db0c8fee505b1a2124"
     };
     private static MessageDigest md5;
 
